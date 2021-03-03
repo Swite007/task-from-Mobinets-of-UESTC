@@ -32,6 +32,7 @@ A Simulation program of new coronavirus spreading based on Matlab
 
 二、基于四种不同的防治措施，进行模拟<br>
 1、不采取措施（no_measures）<br>
+![image](https://github.com/Swite007/task-from-Mobinets-of-UESTC/blob/main/no_measures.gif)
 2、佩戴口罩（wear_mask），效果：降低病毒传播概率（pro由初始的 0.6 降为 0.2）<br>
 3、限制感染者移动范围（infected_restricted_move）,效果：减少感染者的移动范围（由 ±7 的移动范围降为 ±2）<br>
 4、限制全部人员的移动范围（all_restricted_move），效果：减少所有人员的移动范围（由 ±7 的移动范围降为 ±2）<br>
