@@ -2,10 +2,12 @@
 A Simulation program of new coronavirus spreading based on Matlab
 
 前言：
+----
 这个文档是介绍一种基于matlab开发的新冠病毒传播的仿真程序，此程序的最初开发者为CSDN的“UESTC 五高考3模拟”用户；
 源程序链接如下：https://blog.csdn.net/weixin_43267645/article/details/105253949
 
 此项目解决问题介绍：
+----
 1、基于前人经验和代码，对程序ui部分进行优化，设置“累计感染人数”变化曲线；
 
 2、基于源程序，模拟采取4种不同防治措施，检测其对新冠病毒传播的抑制效果，4种措施分别为：
@@ -15,6 +17,7 @@ A Simulation program of new coronavirus spreading based on Matlab
 3、基于上述不同模拟结果进行分析，并给出防治措施建议；
 
 正文：
+----
 一、
 代码思路介绍：
 首先设置均值向量以及协相关矩阵，并利用 mvnrnd 函数构造二维正态随机分布矩阵，并从中抽取100个作为实验样本；
